@@ -206,8 +206,8 @@ if __name__ == "__main__":
             codePath ="C:\\Users\\SBK\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
             os.startfile(codePath)
         elif('about' in query):
-            print('Hello sir, I am Lucy, Developed By Diwakar, Bhavesh , Irshad and Suraj. Basically i am Part of mini project. which is Guided by, Mr. Ayaz Sir')
-            speak('Hello sir, I am Lucy, Developed By, Deewakar, Bhaawesh , Irsaad, and, Sooraj, Basically i am Part of mini project. which is Guided by, Mr. Ayaz Sir')
+            print('Hello sir, I am Lucy, Developed By Diwakar which is Guided by, Mr. Ayaz Sir')
+            speak('Hello sir, I am Lucy, Developed By, Diwakar i am Part of mini project. which is Guided by, Mr. Ayaz Sir')
 
         elif 'date'in query:
             today=datetime.datetime.now()
@@ -252,14 +252,12 @@ if __name__ == "__main__":
                 speak("Give the Name of Reciever.")
                 dic={
  
-                     "Suraj"   : "surajbk@student.iul.ac.in",
-                     "Bhanu" : "bhanupsk2000@gmail.com",
+                     "Suraj"   : "s@xyz.com",
+                     "Bhanu" : "bh@xyz.com",
                      "Diwakar" : "ds6228353@gmail.com",
-                     "Ayush"  : "aymishra@student.iul.ac.in",
-                     "Rahul" : "kaif2672@gmail.com",
-                     "Ajgar"   : "asgarabbas532@gmail.com"
-                    #  "Pankaj"  : "pankajkushwaha58@gmail.com",
-                    #  "sir" :  "ayaz@iul.ac.in"
+                     "Ayush"  : "ay@xyz.com",
+                     "Rahul" : "ka@xyz.com",
+                     
 
                      }
                 
@@ -296,11 +294,10 @@ if __name__ == "__main__":
                 print("Give the name of reciever")
                 speak("Give the name of reciever")
                 di={
-                     "Suraj" : "+918707885861",
-                     "Diwakar" : "+916392315371",
-                     "Ayush" : "+918318363623",
-                    #  "papa"  : "+919453485143",
-                     "Ajgar"  :"+916389261613"
+                     "Suraj" : "+910000000",
+                     "Diwakar" : "+91600000",
+                   
+                     "Ajgar"  :"+910000000000"
                      }
                 number=di[takeCommand()]
             
