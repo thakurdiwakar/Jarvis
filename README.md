@@ -10,7 +10,7 @@ Jarvis is a Python-based AI Assistant that can perform various tasks, such as se
 - [Usage](#usage)
 - [Commands](#commands)
 - [Contributing](#contributing)
-- [License](#license)
+
 
 ## Features
 
